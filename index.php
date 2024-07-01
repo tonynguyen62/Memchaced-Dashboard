@@ -16,7 +16,7 @@ class Simple_memchached_dashboard{
 	private $users   = array();
 	
 	
-	function __construct($server = '127.0.0.1',$port = '11211',$users  = array('admin' => 'admin')){
+	function __construct($server = '192.168.25.94',$port = '7872',$users  = array('admin' => 'admin')){
 		session_start();
 		$this->users = $users;
 		$this->validate_login();
